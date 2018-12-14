@@ -1,0 +1,46 @@
+.row {
+    padding-top: 10px;
+    font-family: Monospace;
+    text-align: center;
+    
+}
+.center {
+    text-align: center;
+}
+.song-image {
+	width: 6rem;
+}
+
+body {
+    position : relative;
+    text-align : center;
+    z-index : 1;
+    background-color: #2C3E50;
+    color: white;
+}
+
+#badMovies, #goodMovies {
+    font-family: Monospace;
+    text-align: center;
+}
+
+button{
+    background:#e8491d;
+    color:#fff;
+    border:0;
+    padding: 7px;
+}
+
+input{
+    padding:5px;
+    border:2;
+    font-family: Monospace;
+}
+
+#inputAndButton{
+    float:right;
+}
+
+#spaceInBetween{
+    height: 70px;
+}

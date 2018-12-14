@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MovieDb</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+      <script src="script.js" async></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link type="text/css" rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <!-- Search area for movies -->
+      <div class="row" id="inputAndButton">
+        <input>
+        <button>Button</button>
+      </div>
+    </div>
+    
+      <div id="spaceInBetween"></div>
+         <!--Division of bad movies and good movies -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 row">
+          <h1 class="col-sm-12 center" id= "badMovies">Bad Movies</h1>
+        </div>
+        <div class="col-sm-6 row">
+          <h1 class="col-sm-12 center" id= "goodMovies">Good Movies</h1>
+        </div>
+      </div>
+      <!-- content of good movies and bad movies -->
+      <div class="row">
+        <div class="col-sm-6 row" id="bad">
+          <div class="col-sm-12 center card-body">
+            <img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNzg4MjM2NDQ4MV5BMl5BanBnXkFtZTgwMzk3MTgyODE@._V1_SX300.jpg" class="song-image img-thumbnail float-left">
+              <h3>Finding Dory</h3>
+              <p>Ellen DeGeneres, Albert Brooks, Ed O'Neill, Kaitlin Olson</p>
+              <a href="http://movies.disney.com/finding-dory">More Info</a>
+          </div>
+        </div>
+        <div class="col-sm-6 row">
+          <div class="col-sm-12 center" id="good"></div>
+        </div>
+      </div>  
+    </div>  
+  </body>   
+</html>
+  
+  
+        
