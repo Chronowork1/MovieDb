@@ -11,7 +11,6 @@ $(document).ready(function(){
 	  "isGood": 14
 	},
     ];
-    
     // length: 1, index: 0
     // length: 2, index: 1
     // length: 3, index: 2
